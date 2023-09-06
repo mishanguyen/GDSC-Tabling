@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./webfontkit-20230729-154137/stylesheet.css">
+  <title>GDSC ASL Game</title>
+</head>
+<body>
+    <header>
+        <button type="button" onclick="init()" id="start-btn">Start</button>
+        <div class="info" id="info">
+            <div id="letters-container">
+                <div id="letters">
+                    <span id="text">SHOW</span>
+                    <span id="text1">GDSC</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div id="webcam-container" class="webcam-container"></div>
+    <div id="label-container"></div>
+
+    <div class="info" id="info1">
+        <div id="letters-container1">
+            <div id="letters1">
+                < >
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
